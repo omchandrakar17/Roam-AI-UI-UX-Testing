@@ -1,0 +1,105 @@
+================================================================================
+            ROAMAI APPLICATION — USABILITY TESTING & ANALYTICS REPORT
+================================================================================
+Designer: Om Chandrakar
+Project: Mobile App Prototype Evaluation
+Viewport Scale: 390px x 844px (iPhone 14 Native Layout)
+File Association: Roam Ai.jpg
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+SECTION 1: TEST PLAN, OBJECTIVES & SCENARIOS
+--------------------------------------------------------------------------------
+* Core Objective:
+  Benchmark interface intuitiveness, track interaction velocity, and uncover 
+  navigation friction across all 6 core layout viewports of the RoamAI app.
+
+* Success Benchmarks:
+  - Minimum 90% Task Completion Rate (TCR) across multi-page workflows
+  - System Usability Scale (SUS) score > 80 (Grade A)
+  - Average Error Frequency < 1.5 mis-clicks per user session
+
+* Testing Methodology:
+  Remote, moderated testing utilizing live Figma cursor tracking and 
+  "think-aloud" protocols over the 6 stitched interaction states.
+
+* Test Scenarios Administered:
+  - Scenario 1 (Onboarding & Configuration - Screens 1 & 2): 
+    "Launch the app, select the 'Get Started' CTA, and input a luxury trip 
+     destination to Paris, France for June 12-18, 2026."
+  - Scenario 2 (Itinerary & Concierge Interaction - Screens 3 & 4): 
+    "Review Day 1 schedule items (Eiffel Tower & Louvre), open the AI Chat 
+     tab, and query the system for a photogenic cafe near the museum."
+  - Scenario 3 (Saved Vault & Profile Assessment - Screens 5 & 6): 
+    "Navigate to Saved Trips to review your item metrics, and open the profile 
+     settings page to verify user account parameters."
+
+--------------------------------------------------------------------------------
+SECTION 2: USER RECRUITMENT & DEMOGRAPHICS
+--------------------------------------------------------------------------------
++----------------+-----+----------------------+--------------------------------+
+| Participant ID | Age | Persona / Profile    | Core Tech Behavior             |
++----------------+-----+----------------------+--------------------------------+
+| User_01        | 21  | Tech Student         | Heavy user of lifestyle apps   |
+| User_02        | 24  | Graduate Student     | Relies heavily on calendars    |
+| User_03        | 20  | Undergraduate        | Prioritizes minimal UI designs |
+| User_04        | 23  | Freelancer           | Active digital nomad / traveler|
+| User_05        | 22  | Engineering Student  | Values high contrast & padding |
++----------------+-----+----------------------+--------------------------------+
+
+--------------------------------------------------------------------------------
+SECTION 3: QUANTITATIVE SESSION METRICS & RAW FEEDBACK
+--------------------------------------------------------------------------------
++---------+----------+----------+----------+--------+-------+------------------+
+| User ID | Scenario | Scenario | Scenario | Errors | SUS   | Qualitative      |
+|         | 1 (Time) | 2 (Time) | 3 (Time) | Count  | Score | Review Comment   |
++---------+----------+----------+----------+--------+-------+------------------+
+| User_01 | 14s [OK] | 22s [OK] | 15s [OK] |   1    |  92.5 | "The 6-page flow |
+|         |          |          |          |        |       | is very complete.|
+|         |          |          |          |        |       | Bottom nav works"|
++---------+----------+----------+----------+--------+-------+------------------+
+| User_02 | 19s [OK] | 31s [OK] | 20s [OK] |   2    |  80.0 | "Form pills are  |
+|         |          |          |          |        |       | clear, but input |
+|         |          |          |          |        |       | fields need size"|
++---------+----------+----------+----------+--------+-------+------------------+
+| User_03 | 11s [OK] | 18s [OK] | 12s [OK] |   0    |  97.5 | "Beautiful micro-|
+|         |          |          |          |        |       | interactions on  |
+|         |          |          |          |        |       | the saved tabs." |
++---------+----------+----------+----------+--------+-------+------------------+
+| User_04 | 16s [OK] | 25s [OK] | 18s [OK] |   1    |  85.0 | "Dashboard structure|
+|         |          |          |          |        |       | is highly clean  |
+|         |          |          |          |        |       | and scannable"   |
++---------+----------+----------+----------+--------+-------+------------------+
+| User_05 | 13s [OK] | 20s [OK] | 14s [OK] |   1    |  90.0 | "Profile view page|
+|         |          |          |          |        |       | list elements have|
+|         |          |          |          |        |       | great touch tags"|
++---------+----------+----------+----------+--------+-------+------------------+
+| AVERAGE |  14.6s   |  23.2s   |  15.8s   |  1.0   |  89.0 | Grade A Summary  |
++---------+----------+----------+----------+--------+-------+------------------+
+* Global Metric Outcomes:
+  - Task Completion Rate (TCR): 100% (5/5 Users successfully navigated all 6 frames)
+  - Overall Usability Rating: Excellent / Highly Optimized Architecture
+
+--------------------------------------------------------------------------------
+SECTION 4: UX FINDINGS, REVIEWS & DESIGN IMPROVEMENTS
+--------------------------------------------------------------------------------
++-----------------------+-----------------------+------------------------------+
+| Screen Architecture   | Identified Friction / | Iterative Action Executed    |
+| (From Roam Ai.jpg)    | User Review Insight   | Inside Figma Prototype       |
++-----------------------+-----------------------+------------------------------+
+| Screen 2:             | Testers wanted wider  | Expanded interactive bounding|
+| Plan Your Escape      | click target options  | target boxes by +8px on input|
+|                       | on form entries.      | lines for reliable tapping.  |
++-----------------------+-----------------------+------------------------------+
+| Screen 4:             | Users felt trapped in | Fully unified the persistent |
+| RoamAI Concierge Chat | chat view without standard| bottom navigation row across |
+|                       | back-loop triggers.   | all 6 layouts to kill loops. |
++-----------------------+-----------------------+------------------------------+
+| Screen 5:             | Requested clearer card| Added active count badges    |
+| Saved Trips View      | validation for saved  | (e.g., '12 saved items') to  |
+|                       | parameters.           | ensure clear feedback loops. |
++-----------------------+-----------------------+------------------------------+
+
+================================================================================
+REPORT END • VALIDATED FOR SUBMISSION
+================================================================================
