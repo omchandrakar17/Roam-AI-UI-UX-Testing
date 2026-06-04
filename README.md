@@ -70,4 +70,4 @@ Based on user micro-interaction tracking and explicit reviews, the following lay
 
 ---
 
-**Designed & Documented By:** Vishal
+**Designed & Documented By:** Om Chandrakar
